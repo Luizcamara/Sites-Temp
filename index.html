@@ -4,11 +4,15 @@
     <!-- PAGE INFO -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OriginSix</title>
+    <title>SEULOGO</title>
 
     <!-- Icones -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
-
+    <!--Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -22,7 +26,7 @@
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">beauty<span>salon</span>.</a>
+        <a class="logo" href="#">Seu<span>LOGO</span>.</a>
         <!-- menu -->
         <div class="menu">
           <ul class="grid">
@@ -38,8 +42,8 @@
         <div class="toggle icon-close"></div>
       </nav>
     </header>
-
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -55,9 +59,11 @@
           </div>
         </div>
       </section>
+      <!-- HOME -->
 
       <div class="divider-1"></div>
 
+      <!-- SOBRE -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -69,13 +75,7 @@
           <div class="text">
             <h2 class="title">Sobre nós</h2>
             <p>
-              <<<<<<< HEAD
               <a>autopass.com.br/aisfjrjiwr</a>
-              ======= Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Necessitatibus deleniti perferendis vel molestiae soluta, quaerat
-              beatae dicta ducimus praesentium architecto harum dolorum
-              distinctio illo earum assumenda itaque. Omnis, quam repellat.
-              >>>>>>> df4e448 (3 Commit)
             </p>
             <br />
             <p>
@@ -94,9 +94,11 @@
           </div>
         </div>
       </section>
+      <!-- SOBRE -->
 
       <div class="divider-2"></div>
 
+      <!-- SERVIÇOS -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -138,8 +140,139 @@
           </div>
         </div>
       </section>
-    </main>
+      <!-- SERVIÇOS -->
 
+      <div class="divider-1"></div>
+
+      <!-- Testemunhos -->
+      <section class="section" id="testimonials">
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Animi sequi eos sapiente et minima. Sapiente fugit et
+                    voluptatem nisi dolore sint hic voluptates? Quas mollitia et
+                    repellendus molestias dolore eaque.
+                  </p>
+                  <cite>
+                    <img
+                      src="/Site/Site-Template/Sites-Temp/assets/fotos/75.jpg"
+                      alt=" Foto de ?"
+                    />
+                    ---------------
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Animi sequi eos sapiente et minima. Sapiente fugit et
+                    voluptatem nisi dolore sint hic voluptates? Quas mollitia et
+                    repellendus molestias dolore eaque.
+                  </p>
+                  <cite>
+                    <img
+                      src="/Site/Site-Template/Sites-Temp/assets/fotos/28.jpg"
+                      alt="Foto de ?"
+                    />
+                    ---------------
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Animi sequi eos sapiente et minima. Sapiente fugit et
+                    voluptatem nisi dolore sint hic voluptates? Quas mollitia et
+                    repellendus molestias dolore eaque.
+                  </p>
+                  <cite>
+                    <img
+                      src="/Site/Site-Template/Sites-Temp/assets/fotos/79.jpg"
+                      alt=" Fotos de ---------------"
+                    />
+                    ---------------
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- Testemunhos -->
+
+      <div class="divider-2"></div>
+
+      <!-- Contatos  -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a EMPRESA, queremos tirar suas dúvidas, ouvir
+              suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511xxxxxxxx&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>11 xxxx-xxxx</li>
+              <li><i class="icon-map-pin"></i>X. -----------</li>
+              <li><i class="icon-mail"></i>----------------</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Contatos  -->
+
+      <div class="divider-1"></div>
+    </main>
+    <!-- RODAPE  -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home" class="logo logo-alt">SEU<span>LOGO</span>.</a>
+          <p>©2021 EMPRESA.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social">
+          <a href="https://instagram.com" target="-blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="https://instagram.com" target="-blank"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a href="https://instagram.com" target="-blank"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- RODAPE  -->
+    <a href="#home"><i class="icon-arrow-up"></i></a>
+    <!-- Swiper.js-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--Scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Jjava Scrit-->
     <script src="main.js"></script>
   </body>
 </html>
