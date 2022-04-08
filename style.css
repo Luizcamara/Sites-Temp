@@ -484,5 +484,12 @@ footer .social a:hover {
   transform: translateY(-8px);
 }
 
-/*====  BACK to top ============================ */
+/*====  MEDIA QUERIES ============================ */
 
+
+/*== Large devices: 992> * ===*/
+@media (min-width: 992px) {
+  .title{
+    font-size: 2.25;
+  }
+}
